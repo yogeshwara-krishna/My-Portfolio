@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+body{
+    background: url('road1.png') no-repeat  ;
+}
+.image{
+    position: absolute;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation-delay: 1s;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: scale(0.01,0.01);
+  }
+  50% {
+      transform: scale(1.5,1.5);
+  }
+  100% {
+      transform: scale(1,1);
+  }
+}
+.image:hover{
+    transform: scale(1.2);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+#mont{
+    left:400px;
+    top:35px;
+}
+#psg{
+    top:40px;
+    left:800px;
+}
+#spips{
+    left:150px;
+    top:100px;
+}
+#kgp{
+    left:75%;
+    top:100px;
+}
+
+.text{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', cursive ,bold;
+    color:white;
+   
+}
+#tmont{
+    left:120px;
+    top:30px;
+}
+#tpsg{
+    left:930px;
+    top:70px;
+}
+#tspips{
+    left:50px;
+    top:400px;
+}
+#tkgp{
+    left:920px;
+    top:290px;
+}
+#title{
+    position: absolute;
+    font-family: 'Cinzel Decorative', cursive ,bold;
+    left:50px;
+    top:500px;
+    font-size: 50px;
+    color:white;
+}
+#back{
+    position: absolute;
+    font-family: 'Cinzel Decorative', cursive ,bold;
+    font-size: 35px;
+    background-color: white;
+    border-radius: 50%;
+    left:900px;
+    top:80%;
+    padding:20px;
+    color:black;
+}
+#back:hover{
+    transform: scale(1.2);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
